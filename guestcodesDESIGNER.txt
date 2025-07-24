@@ -1563,11 +1563,11 @@ Partial Class guestviproom
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -1653,20 +1653,6 @@ Partial Class guestviproom
         Me.Button6.TabIndex = 6
         Me.Button6.UseVisualStyleBackColor = False
         '
-        'Button7
-        '
-        Me.Button7.BackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.ForeColor = System.Drawing.Color.Transparent
-        Me.Button7.Location = New System.Drawing.Point(1225, 644)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(47, 35)
-        Me.Button7.TabIndex = 7
-        Me.Button7.UseVisualStyleBackColor = False
-        '
         'Button8
         '
         Me.Button8.BackColor = System.Drawing.Color.Transparent
@@ -1722,6 +1708,20 @@ Partial Class guestviproom
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "  "
         '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.ForeColor = System.Drawing.Color.Transparent
+        Me.Button7.Location = New System.Drawing.Point(75, 644)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(47, 35)
+        Me.Button7.TabIndex = 20
+        Me.Button7.UseVisualStyleBackColor = False
+        '
         'guestviproom
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1729,20 +1729,20 @@ Partial Class guestviproom
         Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.VIP_ROOM
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "guestviproom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1754,12 +1754,13 @@ Partial Class guestviproom
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button7 As Button
 End Class
+
 
 guestmenu
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
