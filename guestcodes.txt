@@ -125,7 +125,7 @@ Partial Class guestmain
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestmain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
 
     End Sub
@@ -287,7 +287,7 @@ Partial Class guestwelcome
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestwelcome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
 
     End Sub
@@ -467,7 +467,7 @@ Partial Class guestpolicies
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestpolicies"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
 
     End Sub
@@ -627,7 +627,7 @@ Partial Class guestcontactus
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestcontactus"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
 
     End Sub
@@ -867,7 +867,7 @@ Partial Class gueststandardroom
         Me.Controls.Add(Me.Button1)
         Me.Name = "gueststandardroom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1124,7 +1124,7 @@ Partial Class guestdeluxeroom
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestdeluxeroom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1387,7 +1387,7 @@ Partial Class guestpartyroom
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestpartyroom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1603,7 +1603,7 @@ Partial Class guestviproom
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestviproom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "main"
+        
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
