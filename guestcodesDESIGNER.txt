@@ -1,4 +1,4 @@
-GUESTMAIN
+guestmain
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class guestmain
     Inherits System.Windows.Forms.Form
@@ -24,6 +24,7 @@ Partial Class guestmain
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -110,6 +111,22 @@ Partial Class guestmain
         Me.Button6.TabIndex = 6
         Me.Button6.UseVisualStyleBackColor = False
         '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.Color.Red
+        Me.Button7.Location = New System.Drawing.Point(1316, 0)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(26, 35)
+        Me.Button7.TabIndex = 19
+        Me.Button7.Text = "X"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
         'guestmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -117,6 +134,7 @@ Partial Class guestmain
         Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.TITLE
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -125,7 +143,7 @@ Partial Class guestmain
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestmain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
 
     End Sub
@@ -136,10 +154,10 @@ Partial Class guestmain
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 End Class
 
-GUESTWELCOME
-
+guestwelcome
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class guestwelcome
     Inherits System.Windows.Forms.Form
@@ -171,6 +189,7 @@ Partial Class guestwelcome
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -271,6 +290,22 @@ Partial Class guestwelcome
         Me.Button7.TabIndex = 7
         Me.Button7.UseVisualStyleBackColor = False
         '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.Red
+        Me.Button8.Location = New System.Drawing.Point(1316, 0)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(26, 35)
+        Me.Button8.TabIndex = 19
+        Me.Button8.Text = "X"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
         'guestwelcome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -278,6 +313,7 @@ Partial Class guestwelcome
         Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.WELCOME
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
@@ -287,7 +323,7 @@ Partial Class guestwelcome
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestwelcome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
 
     End Sub
@@ -299,11 +335,11 @@ Partial Class guestwelcome
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
 
 End Class
 
-GUESTPOLICIES
-
+guestpolicies
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class guestpolicies
     Inherits System.Windows.Forms.Form
@@ -336,12 +372,13 @@ Partial Class guestpolicies
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -352,10 +389,10 @@ Partial Class guestpolicies
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button2 (was Button3)
+        'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -366,10 +403,10 @@ Partial Class guestpolicies
         Me.Button2.TabIndex = 2
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button3 (was Button2)
+        'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -383,7 +420,7 @@ Partial Class guestpolicies
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Transparent
-        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -397,7 +434,7 @@ Partial Class guestpolicies
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -411,7 +448,7 @@ Partial Class guestpolicies
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.Transparent
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -425,7 +462,7 @@ Partial Class guestpolicies
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -439,7 +476,7 @@ Partial Class guestpolicies
         'Button8
         '
         Me.Button8.BackColor = System.Drawing.Color.Transparent
-        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -450,6 +487,22 @@ Partial Class guestpolicies
         Me.Button8.TabIndex = 8
         Me.Button8.UseVisualStyleBackColor = False
         '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.Transparent
+        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button9.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.ForeColor = System.Drawing.Color.Red
+        Me.Button9.Location = New System.Drawing.Point(1316, 0)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(26, 35)
+        Me.Button9.TabIndex = 19
+        Me.Button9.Text = "X"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
         'guestpolicies
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -457,6 +510,7 @@ Partial Class guestpolicies
         Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.POLICIES
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
@@ -467,7 +521,7 @@ Partial Class guestpolicies
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestpolicies"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
 
     End Sub
@@ -480,11 +534,10 @@ Partial Class guestpolicies
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
 End Class
 
-
-GUESTCONTACTUS
-
+guestcontactus
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class guestcontactus
     Inherits System.Windows.Forms.Form
@@ -511,12 +564,13 @@ Partial Class guestcontactus
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -527,10 +581,10 @@ Partial Class guestcontactus
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button3 (was Button2)
+        'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -541,10 +595,10 @@ Partial Class guestcontactus
         Me.Button3.TabIndex = 2
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button2 (was Button3)
+        'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -558,7 +612,7 @@ Partial Class guestcontactus
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Transparent
-        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -572,7 +626,7 @@ Partial Class guestcontactus
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -586,7 +640,7 @@ Partial Class guestcontactus
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.Transparent
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -600,7 +654,7 @@ Partial Class guestcontactus
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(0, 0, 0, 0)
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -611,6 +665,22 @@ Partial Class guestcontactus
         Me.Button7.TabIndex = 8
         Me.Button7.UseVisualStyleBackColor = False
         '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.Red
+        Me.Button8.Location = New System.Drawing.Point(1316, 0)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(26, 35)
+        Me.Button8.TabIndex = 19
+        Me.Button8.Text = "X"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
         'guestcontactus
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -618,6 +688,7 @@ Partial Class guestcontactus
         Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.CONTACT_US
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
@@ -627,7 +698,7 @@ Partial Class guestcontactus
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestcontactus"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
 
     End Sub
@@ -639,9 +710,10 @@ Partial Class guestcontactus
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
 End Class
 
-GUEST STANDARD ROOM
+gueststandardroom
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class gueststandardroom
 
@@ -676,6 +748,7 @@ Partial Class gueststandardroom
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -846,6 +919,22 @@ Partial Class gueststandardroom
         Me.Label3.TabIndex = 12
         Me.Label3.Text = " "
         '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Transparent
+        Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.Color.Red
+        Me.Button10.Location = New System.Drawing.Point(1316, 0)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(26, 35)
+        Me.Button10.TabIndex = 19
+        Me.Button10.Text = "X"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
         'gueststandardroom
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -856,6 +945,7 @@ Partial Class gueststandardroom
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
@@ -867,7 +957,7 @@ Partial Class gueststandardroom
         Me.Controls.Add(Me.Button1)
         Me.Name = "gueststandardroom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -882,13 +972,13 @@ Partial Class gueststandardroom
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
 End Class
 
-GUEST DELUXE ROOM
-
+guestdeluxeroom
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class guestdeluxeroom
     Inherits System.Windows.Forms.Form
@@ -918,6 +1008,7 @@ Partial Class guestdeluxeroom
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -1063,6 +1154,22 @@ Partial Class guestdeluxeroom
         Me.Button10.TabIndex = 10
         Me.Button10.UseVisualStyleBackColor = False
         '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.Transparent
+        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.ForeColor = System.Drawing.Color.Red
+        Me.Button11.Location = New System.Drawing.Point(1316, 0)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(26, 35)
+        Me.Button11.TabIndex = 19
+        Me.Button11.Text = "X"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -1112,6 +1219,7 @@ Partial Class guestdeluxeroom
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
@@ -1124,7 +1232,7 @@ Partial Class guestdeluxeroom
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestdeluxeroom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1140,20 +1248,17 @@ Partial Class guestdeluxeroom
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
 End Class
 
-
-GUEST PARTY ROOM
-
+guestpartyroom
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class guestpartyroom
-
     Inherits System.Windows.Forms.Form
 
-    'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
@@ -1165,12 +1270,8 @@ Partial Class guestpartyroom
         End Try
     End Sub
 
-    'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
 
-    'NOTE: The following procedure is required by the Windows Form Designer
-    'It can be modified using the Windows Form Designer.  
-    'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -1183,6 +1284,7 @@ Partial Class guestpartyroom
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -1262,7 +1364,7 @@ Partial Class guestpartyroom
         '
         Me.Button6.BackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.ForeColor = System.Drawing.Color.Transparent
@@ -1291,7 +1393,7 @@ Partial Class guestpartyroom
         Me.Button8.BackColor = System.Drawing.Color.Transparent
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.ForeColor = System.Drawing.Color.Transparent
         Me.Button8.Location = New System.Drawing.Point(75, 644)
@@ -1308,7 +1410,7 @@ Partial Class guestpartyroom
         Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.ForeColor = System.Drawing.Color.Transparent
-        Me.Button9.Location = New System.Drawing.Point(90, 535)
+        Me.Button9.Location = New System.Drawing.Point(192, 524)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(148, 58)
         Me.Button9.TabIndex = 9
@@ -1318,63 +1420,82 @@ Partial Class guestpartyroom
         '
         Me.Button10.BackColor = System.Drawing.Color.Transparent
         Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.ForeColor = System.Drawing.Color.Transparent
-        Me.Button10.Location = New System.Drawing.Point(1115, 539)
+        Me.Button10.Location = New System.Drawing.Point(1007, 524)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(148, 58)
         Me.Button10.TabIndex = 10
         Me.Button10.UseVisualStyleBackColor = False
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.Transparent
+        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.ForeColor = System.Drawing.Color.Red
+        Me.Button11.Location = New System.Drawing.Point(1316, 0)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(26, 35)
+        Me.Button11.TabIndex = 19
+        Me.Button11.Text = "X"
+        Me.Button11.UseVisualStyleBackColor = False
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label3.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.Color.LightPink
         Me.Label3.Location = New System.Drawing.Point(667, 583)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(130, 21)
+        Me.Label3.Size = New System.Drawing.Size(25, 21)
         Me.Label3.TabIndex = 15
-        Me.Label3.Text = "   DFESFEFEWF"
+        Me.Label3.Text = "   "
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label2.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.Color.LightPink
         Me.Label2.Location = New System.Drawing.Point(667, 560)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(130, 21)
+        Me.Label2.Size = New System.Drawing.Size(25, 21)
         Me.Label2.TabIndex = 14
-        Me.Label2.Text = "   DFESFEFEWF"
+        Me.Label2.Text = "   "
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label1.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Bold)
         Me.Label1.ForeColor = System.Drawing.Color.LightPink
         Me.Label1.Location = New System.Drawing.Point(667, 534)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(130, 21)
+        Me.Label1.Size = New System.Drawing.Size(25, 21)
         Me.Label1.TabIndex = 13
-        Me.Label1.Text = "   DFESFEFEWF"
+        Me.Label1.Text = "   "
         '
         'guestpartyroom
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.PARTY_ROOM
+        Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.DELUXE_ROOM
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1348, 721)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
@@ -1387,7 +1508,7 @@ Partial Class guestpartyroom
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestpartyroom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1403,13 +1524,13 @@ Partial Class guestpartyroom
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
 End Class
 
-GUEST VIP ROOM
-
+guestviproom
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class guestviproom
 
@@ -1442,6 +1563,7 @@ Partial Class guestviproom
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -1521,7 +1643,6 @@ Partial Class guestviproom
         '
         Me.Button6.BackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.ForeColor = System.Drawing.Color.Transparent
@@ -1544,6 +1665,22 @@ Partial Class guestviproom
         Me.Button7.Size = New System.Drawing.Size(47, 35)
         Me.Button7.TabIndex = 7
         Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.Red
+        Me.Button8.Location = New System.Drawing.Point(1316, 0)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(26, 35)
+        Me.Button8.TabIndex = 19
+        Me.Button8.Text = "X"
+        Me.Button8.UseVisualStyleBackColor = False
         '
         'Label3
         '
@@ -1594,6 +1731,7 @@ Partial Class guestviproom
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
@@ -1603,7 +1741,7 @@ Partial Class guestviproom
         Me.Controls.Add(Me.Button1)
         Me.Name = "guestviproom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1616,7 +1754,641 @@ Partial Class guestviproom
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+End Class
+
+guestmenu
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class guestmenu
+    Inherits System.Windows.Forms.Form
+
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    Private components As System.ComponentModel.IContainer
+
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(715, 29)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(89, 35)
+        Me.Button1.TabIndex = 0
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.Color.Transparent
+        Me.Button3.Location = New System.Drawing.Point(819, 29)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(89, 35)
+        Me.Button3.TabIndex = 2
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(929, 29)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(89, 35)
+        Me.Button2.TabIndex = 3
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.ForeColor = System.Drawing.Color.Transparent
+        Me.Button4.Location = New System.Drawing.Point(1021, 29)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(89, 35)
+        Me.Button4.TabIndex = 4
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.ForeColor = System.Drawing.Color.Transparent
+        Me.Button5.Location = New System.Drawing.Point(1119, 29)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(89, 35)
+        Me.Button5.TabIndex = 5
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.ForeColor = System.Drawing.Color.Transparent
+        Me.Button6.Location = New System.Drawing.Point(1233, 29)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(89, 35)
+        Me.Button6.TabIndex = 6
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.Color.Red
+        Me.Button7.Location = New System.Drawing.Point(1316, 0)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(26, 35)
+        Me.Button7.TabIndex = 19
+        Me.Button7.Text = "X"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'guestmenu
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.MENU
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button1)
+        Me.Name = "guestmenu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.ResumeLayout(False)
+
+    End Sub
+
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+End Class
+
+guestregistration
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class guestregistration
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(715, 29)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(89, 35)
+        Me.Button1.TabIndex = 0
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(819, 29)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(89, 35)
+        Me.Button2.TabIndex = 2
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.Color.Transparent
+        Me.Button3.Location = New System.Drawing.Point(929, 29)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(89, 35)
+        Me.Button3.TabIndex = 3
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.ForeColor = System.Drawing.Color.Transparent
+        Me.Button4.Location = New System.Drawing.Point(1021, 29)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(89, 35)
+        Me.Button4.TabIndex = 4
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.ForeColor = System.Drawing.Color.Transparent
+        Me.Button5.Location = New System.Drawing.Point(1119, 29)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(89, 35)
+        Me.Button5.TabIndex = 5
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.ForeColor = System.Drawing.Color.Transparent
+        Me.Button6.Location = New System.Drawing.Point(1233, 29)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(89, 35)
+        Me.Button6.TabIndex = 6
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.ForeColor = System.Drawing.Color.Transparent
+        Me.Button7.Location = New System.Drawing.Point(946, 523)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(187, 86)
+        Me.Button7.TabIndex = 11
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.DarkSlateBlue
+        Me.TextBox1.Location = New System.Drawing.Point(391, 318)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(219, 32)
+        Me.TextBox1.TabIndex = 12
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.DarkSlateBlue
+        Me.TextBox2.Location = New System.Drawing.Point(391, 388)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(219, 32)
+        Me.TextBox2.TabIndex = 13
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.DarkSlateBlue
+        Me.TextBox3.Location = New System.Drawing.Point(914, 318)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(219, 32)
+        Me.TextBox3.TabIndex = 14
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.ForeColor = System.Drawing.Color.DarkSlateBlue
+        Me.TextBox4.Location = New System.Drawing.Point(914, 373)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(219, 32)
+        Me.TextBox4.TabIndex = 15
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.ForeColor = System.Drawing.Color.DarkSlateBlue
+        Me.TextBox5.Location = New System.Drawing.Point(914, 429)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(219, 32)
+        Me.TextBox5.TabIndex = 16
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.ForeColor = System.Drawing.Color.SlateBlue
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Female", "Male"})
+        Me.ComboBox1.Location = New System.Drawing.Point(391, 458)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(218, 32)
+        Me.ComboBox1.TabIndex = 17
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.CalendarForeColor = System.Drawing.Color.SlateBlue
+        Me.DateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.White
+        Me.DateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.SlateBlue
+        Me.DateTimePicker1.CalendarTrailingForeColor = System.Drawing.Color.Indigo
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker1.Location = New System.Drawing.Point(393, 523)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(217, 32)
+        Me.DateTimePicker1.TabIndex = 18
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.Red
+        Me.Button8.Location = New System.Drawing.Point(1316, 0)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(26, 35)
+        Me.Button8.TabIndex = 19
+        Me.Button8.Text = "X"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'guestregistration
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.REGISTRATION
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "guestregistration"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Button8 As Button
+End Class
+
+guestlogin
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class guestlogin
+    Inherits System.Windows.Forms.Form
+
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    Private components As System.ComponentModel.IContainer
+
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(715, 29)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(89, 35)
+        Me.Button1.TabIndex = 0
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.Color.Transparent
+        Me.Button3.Location = New System.Drawing.Point(819, 29)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(89, 35)
+        Me.Button3.TabIndex = 2
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(929, 29)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(89, 35)
+        Me.Button2.TabIndex = 3
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.ForeColor = System.Drawing.Color.Transparent
+        Me.Button4.Location = New System.Drawing.Point(1021, 29)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(89, 35)
+        Me.Button4.TabIndex = 4
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.ForeColor = System.Drawing.Color.Transparent
+        Me.Button5.Location = New System.Drawing.Point(1119, 29)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(89, 35)
+        Me.Button5.TabIndex = 5
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.ForeColor = System.Drawing.Color.Transparent
+        Me.Button6.Location = New System.Drawing.Point(1233, 29)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(89, 35)
+        Me.Button6.TabIndex = 6
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Font = New System.Drawing.Font("Bahnschrift", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.Color.Red
+        Me.Button7.Location = New System.Drawing.Point(1316, 0)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(26, 35)
+        Me.Button7.TabIndex = 19
+        Me.Button7.Text = "X"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.ForeColor = System.Drawing.Color.Transparent
+        Me.Button8.Location = New System.Drawing.Point(766, 442)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(190, 88)
+        Me.Button8.TabIndex = 20
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.DarkSlateBlue
+        Me.TextBox2.Location = New System.Drawing.Point(737, 360)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(219, 32)
+        Me.TextBox2.TabIndex = 22
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.DarkSlateBlue
+        Me.TextBox1.Location = New System.Drawing.Point(737, 297)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(219, 32)
+        Me.TextBox1.TabIndex = 21
+        '
+        'guestlogin
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.KTV_PROJECT.My.Resources.Resources.LOGIN
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1348, 721)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "guestlogin"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
 End Class
